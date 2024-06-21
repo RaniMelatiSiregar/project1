@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('nama');
             $table->string('email');
             $table->string('nomor_hp');
+            $table->text('pesan');
             $table->timestamps();
         });
     }

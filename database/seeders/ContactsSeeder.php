@@ -16,7 +16,8 @@ class ContactsSeeder extends Seeder
         DB::table('contacts')->insert([
             'nama' => 'rani',
             'email' => 'rani@gmail.com',
-            'nomor_hp' => '0834526227'
+            'nomor_hp' => '0834526227',
+            'pesan' => 'hai'
         ]);
     }
 }

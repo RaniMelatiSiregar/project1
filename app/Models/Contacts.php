@@ -18,6 +18,7 @@ class Contacts extends Model
         'nama',
         'email',
         'nomor_hp',
+        'pesan',
     ];
 }
 

@@ -11,7 +11,7 @@
                             <div class="text-center text-xxl-start">
                                 <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Design &middot; Development &middot; Marketing</div></div>
                                 @foreach ($homes as $home)
-                                <p class="lead fw-light mb-4">{{ $home->title}}.</p>
+                                <p class="lead fw-light mb-4">{{ $home->title}}</p>
                                 @endforeach
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                     <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="/profile">Profile</a>

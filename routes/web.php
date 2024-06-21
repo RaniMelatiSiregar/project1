@@ -46,6 +46,7 @@ Route::get('/curdhome', [DashboardHomeController::class, 'index']);
 Route::get('/home/{homes:slug}', [HomesController::class, 'show']);
 
 Route::get('/contact', [ContactsController::class, 'index'])->name('contact');
+Route::post('/contacts', [ContactsController::class, 'store'])->name('contactsend');
 Route::get('/curdcontact', [DashboardContactController::class, 'index']);
 Route::get('/contact/{contacts:slug}', [ContactsController::class, 'show']);
 
