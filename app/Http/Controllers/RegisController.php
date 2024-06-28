@@ -21,9 +21,6 @@ class RegisController extends Controller
             'password'=> 'required|min:5'
         ]);
 
-        // $validatedData['user_id'] = auth()->user()->id;
-        // $validatedData['excerpt'] = Str::limit(strip_tags($request->biografi), 200);
-
         User::create($validatedData);
 
         return redirect('/login')->with('success', 'login berhasil!!');

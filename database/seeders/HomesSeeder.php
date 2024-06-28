@@ -8,9 +8,6 @@ use Illuminate\Database\Seeder;
 use DB;
 class HomesSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         DB::table('homes')->insert([

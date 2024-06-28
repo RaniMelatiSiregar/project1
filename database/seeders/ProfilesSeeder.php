@@ -8,9 +8,6 @@ use DB;
 
 class ProfilesSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         DB::table('profiles')->insert([

@@ -59,10 +59,6 @@
                                 </div>
                                 
                                 <button type="submit" class="btn btn-primary btn-user btn-block">Register</button>
-
-                                {{-- <a href="/dashboard" class="btn btn-primary btn-user btn-block">
-                                    Login
-                                </a> --}}
                                 
                             </form>
                             <div class="text-center">

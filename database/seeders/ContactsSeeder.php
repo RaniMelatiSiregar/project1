@@ -8,9 +8,6 @@ use DB;
 
 class ContactsSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         DB::table('contacts')->insert([

@@ -19,7 +19,7 @@ class ContactsController extends Controller
     if (empty($request->nama) || empty($request->email) || empty($request->nomor_hp) || empty($request->pesan_user)) {
         return redirect()->route('contact')->with('error', 'Tidak boleh ada inputan kosong. Semua wajib diisi!');
     }
-    
+
     $request->validate([
         'nama' => 'required',
         'email' => 'required|email',
@@ -28,7 +28,7 @@ class ContactsController extends Controller
     ]);
 
     try {
-        DB::beginTransaction();
+        DB::beginTransaction(); 
         $contacts = new Contacts();
         $contacts->nama = $request->nama;
         $contacts->email = $request->email;

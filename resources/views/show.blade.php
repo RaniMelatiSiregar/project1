@@ -10,23 +10,28 @@
         <title>Personal - Start Bootstrap Theme</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
         <!-- Custom Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{ asset('assets/public/css/styles.css') }}" rel="stylesheet" />
         <link href="{{ asset('assets/public/css/styles2.css') }}" rel="stylesheet" />
 </head>
 <body>
+
 <!-- Header-->
 <header class="py-5">
                 <div class="container px-5 pb-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-xxl-5">
                             <a href="/curdhome" class="btn btn-success"><i class="fa-regular fa-circle-left"></i> Back to all My Home</a>
+
                             <!-- Header text content-->
                             <div class="text-center text-xxl-start">
                                 <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Design &middot; Development &middot; Marketing</div></div>
@@ -38,13 +43,14 @@
                             </div>
                         </div>
                         <div class="col-xxl-7">
+
                             <!-- Header profile picture-->
                             <div class="d-flex justify-content-center mt-5 mt-xxl-0">
                                 <div class="profile bg-gradient-primary-to-secondary">
-                                    <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                                    <!-- Watch a tutorial on how to do this on YouTube (link)-->
+
                                     <img class="profile-img" src="{{ asset('assets/public/assets/wanita.png') }} " alt="..." />
                                     <div class="dots-1">
+
                                         <!-- SVG Dots-->
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
                                             <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
@@ -70,9 +76,9 @@
                                                 <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
                                             </g>
                                         </svg>
-                                        <!-- END of SVG dots-->
                                     </div>
                                     <div class="dots-2">
+
                                         <!-- SVG Dots-->
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
                                             <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
@@ -98,9 +104,9 @@
                                                 <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
                                             </g>
                                         </svg>
-                                        <!-- END of SVG dots-->
                                     </div>
                                     <div class="dots-3">
+
                                         <!-- SVG Dots-->
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
                                             <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
@@ -126,9 +132,9 @@
                                                 <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
                                             </g>
                                         </svg>
-                                        <!-- END of SVG dots-->
                                     </div>
                                     <div class="dots-4">
+
                                         <!-- SVG Dots-->
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
                                             <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
@@ -154,14 +160,15 @@
                                                 <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
                                             </g>
                                         </svg>
-                                        <!-- END of SVG dots-->
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
+            
             <!-- About Section-->
             <section class="bg-light py-5">
                 <div class="container px-5">

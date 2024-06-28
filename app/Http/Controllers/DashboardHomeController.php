@@ -19,14 +19,10 @@ class DashboardHomeController extends Controller
         return view('layouts.showhome', ['home' => $home]);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
     public function edit(Homes $home)
     {
         return view('layouts.edithome', [
             'home' => $home,
-            // 'categories' => category::all()
         ]);
     }
 
@@ -39,7 +35,6 @@ class DashboardHomeController extends Controller
     ]);
 
     if ($request->file('image')) {
-        // Hapus gambar lama jika ada
         if ($home->image) {
             Storage::delete($home->image);
         }

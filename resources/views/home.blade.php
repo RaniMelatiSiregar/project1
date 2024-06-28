@@ -23,8 +23,7 @@
                             <!-- Header profile picture-->
                             <div class="d-flex justify-content-center mt-5 mt-xxl-0">
                                 <div class="profile bg-gradient-primary-to-secondary">
-                                    <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                                    <!-- Watch a tutorial on how to do this on YouTube (link)-->
+                                   
                                     @if ($home->image)
                                         <img src="{{ asset('storage/' . $home->image) }}" class="profile-img" alt="...">
                                     @else
@@ -142,6 +141,7 @@
                                             </g>
                                         </svg>
                                         <!-- END of SVG dots-->
+                                        
                                     </div>
                                 </div>
                             </div>

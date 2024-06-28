@@ -27,11 +27,6 @@ Route::get('/dashboard', function(){
     return view('dashboard');
 })->name('dashboard');
 
-
-// Route::get('/curdprofile', function(){
-//     return view('layouts.curdprofile');
-// })->name('curdprofile');
-
 Route::get('/curdcontact', function(){
     return view('curdcontact');
 })->name('curdcontact');
