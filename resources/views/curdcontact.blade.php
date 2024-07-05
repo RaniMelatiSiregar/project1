@@ -27,11 +27,16 @@
                         <td>{{ $contacts->email }}</td>
                         <td>{{ $contacts->nomor_hp }}</td>
                         <td>
-                            <form action="/dashboard/profiles/{{$contacts->id}}" method="POST">
+                            <form action="/dashboard/contacts/{{$contacts->id}}" method="POST">
    
                                 <a class="btn btn-info" style="padding: 3px 6px; font-size: 10px;" href="/dashboard/contacts/{{$contacts->id}}">Read</a>
                 
                                 <a class="btn btn-primary" style="padding: 3px 6px; font-size: 10px;" href="/dashboard/contacts/{{$contacts->id}}/edit">Edit</a>
+
+                                @csrf
+                                @method('DELETE')
+                  
+                                <button type="submit" class="btn btn-danger" style="padding: 3px 6px; font-size: 10px;">Delete</button>
                                 
                             </form>
                         </td>

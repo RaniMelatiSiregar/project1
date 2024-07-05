@@ -45,14 +45,12 @@ Route::post('/contacts', [ContactsController::class, 'store'])->name('contactsen
 Route::get('/curdcontact', [DashboardContactController::class, 'index']);
 Route::get('/contact/{contacts:slug}', [ContactsController::class, 'show']);
 
-
 Route::get('/register', [RegisController::class, 'index'])->middleware('guest');
 Route::post('/register', [RegisController::class, 'store']);
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
-
 
 Route::resource('/curdhome', DashboardHomeController::class)->middleware('auth');
 Route::resource('/curdprofile', DashboardProfileController::class)->middleware('auth');

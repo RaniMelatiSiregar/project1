@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Contacts;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class DashboardContactController extends Controller
 {
@@ -34,4 +35,11 @@ class DashboardContactController extends Controller
     
             return redirect('/dashboard/contacts')->with('success', 'Contact has been updated!');
         }
+
+             public function destroy(Contacts $contact)
+        {   
+             $contact->delete();
+            return redirect('/dashboard/contacts')->with('success', 'Contact has been deleted!');
+        }
+
 }
